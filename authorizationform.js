@@ -5,7 +5,7 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      password: 'swordfish',
+      password: 'hello',
       authorized: false
     };
     this.authorize = this.authorize.bind(this);
@@ -33,10 +33,10 @@ class Contact extends React.Component {
     const contactInfo=(
         <ul>
           <li>
-            client@example.com
+            Dipanker Baral
           </li>
           <li>
-            555.555.5555
+           92939239329
           </li>
         </ul>
     
